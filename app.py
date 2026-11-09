@@ -18,7 +18,6 @@ st.sidebar.page_link("game.py", label="🎮 Play & Win - 10% OFF")
 st.sidebar.markdown("---")
 st.sidebar.write("📍 No 6, Balqis Jumoke Street, Fate, Ilorin")
 st.sidebar.write("📱 09113579070")
-st.set_page_config(page_title=SHOP_NAME, page_icon="💄")
 
 st.markdown("✨ Luxury Perfumes | Original & Long Lasting | Delivery Nationwide ✨")
 st.markdown("Welcome to Delight Custmestic and Beauty Shop - Where Elegance Meets Fragrance.")
