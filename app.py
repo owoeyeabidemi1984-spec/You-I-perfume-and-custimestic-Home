@@ -53,7 +53,7 @@ st.markdown("✅ 100% Original Perfumes")
 st.markdown("✅ Fast Delivery in Ilorin & Nationwide")
 st.markdown("✅ Pay on Delivery Available in Ilorin")
 st.markdown("✅ 500+ Happy Customers")
-sts.markdown("### Our Signature Perfume Collection")
+st.markdown("### Our Signature Perfumes")
 
 for name, price, img in perfumes:
     show_image(img, f"Picture coming soon: {name}", use_container_width=True)
