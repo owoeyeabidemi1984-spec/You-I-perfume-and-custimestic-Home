@@ -1,3 +1,4 @@
+import streamlit as st
 import os
 from urllib.parse import quote
 
@@ -11,7 +12,13 @@ h1, h2, h3 { color: #1A1A1A; font-family: Georgia, serif; }
 """, unsafe_allow_html=True)
 SHOP_NAME = "Delight Cosmetic and Beauty Shop"
 WHATSAPP = "2349113579070"
-
+# --- DELIGHT MENU - SHOP + GAME ---
+st.sidebar.title("✨ Delight Menu")
+st.sidebar.page_link("app.py", label="🛍️ Shop Perfumes")
+st.sidebar.page_link("game.py", label="🎮 Play & Win - 10% OFF")
+st.sidebar.markdown("---")
+st.sidebar.write("📍 No 6, Balqis Jumoke Street, Fate, Ilorin")
+st.sidebar.write("📱 09113579070")
 st.set_page_config(page_title=SHOP_NAME, page_icon="💄")
 
 st.markdown("✨ Luxury Perfumes | Original & Long Lasting | Delivery Nationwide ✨")
