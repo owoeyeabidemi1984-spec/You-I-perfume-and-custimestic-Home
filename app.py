@@ -35,7 +35,7 @@ perfumes = [
     ("Floral Blush", 12000, "floral_blush.jpg"),
     ("Clean Fresh", 10000, "clean_fresh.jpg"),
     ("Vanilla Dream", 8000, "vanilla_dream.jpg"),
-    ("Musk Classic", 18000, "musk_classic.jpg"),
+    ("Mask Classic", 18000, "musk_classic.jpg"),
     ("Strawberry Sweet", 7500, "strawberry_sweet.jpg"),
     ("Leather Bold", 20000, "leather_bold.jpg"),
     ("Jasmine Gold", 16500, "jasmine_gold.jpg"),
