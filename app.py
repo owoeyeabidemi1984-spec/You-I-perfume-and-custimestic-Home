@@ -2,7 +2,6 @@ import streamlit as st
 import os
 from urllib.parse import quote
 
-import streamlit as st
 st.markdown("""
 <style>
 .main { background-color: #FFF8E7; }
