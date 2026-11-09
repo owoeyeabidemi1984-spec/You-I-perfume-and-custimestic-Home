@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from urllib.parse import quote
-
+st.set_page_config(page_title="Delight Cosmetic and Beauty Shop", page_icon="💄")
 st.markdown("""
 <style>
 .main { background-color: #FFF8E7; }
