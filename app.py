@@ -68,3 +68,6 @@ for name, price, img in perfumes:
     st.markdown("---")
 
 st.markdown("Thank you for shopping with Delight!")
+st.markdown("### What Our Customers Say")
+st.markdown('"I ordered Royal Rose, the smell is so rich. I will order again!" - Aisha, Ilorin')
+st.markdown('"Fast delivery and original perfume. Delight is the best!" - Tobi, Lagos')
