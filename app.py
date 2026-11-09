@@ -2,7 +2,13 @@ import os
 from urllib.parse import quote
 
 import streamlit as st
-
+st.markdown("""
+<style>
+.main { background-color: #FFF8E7; }
+h1, h2, h3 { color: #1A1A1A; font-family: Georgia, serif; }
+.stButton>button { background-color: #C9A227; color: white; }
+</style>
+""", unsafe_allow_html=True)
 SHOP_NAME = "Delight Cosmetic and Beauty Shop"
 WHATSAPP = "2349113579070"
 
