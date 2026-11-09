@@ -13,9 +13,10 @@ SHOP_NAME = "Delight Cosmetic and Beauty Shop"
 WHATSAPP = "2349113579070"
 # --- DELIGHT MENU - SHOP + GAME ---
 st.sidebar.title("✨ Delight Menu")
-st.sidebar.page_link("app.py", label="🛍️ Shop Perfumes")
-st.sidebar.page_link("game.py", label="🎮 Play & Win - 10% OFF")
 st.sidebar.markdown("---")
+st.sidebar.write("🛍️ You are in the Shop")
+if st.sidebar.button("🎮 Play & Win - 10% OFF"):
+    st.switch_page("pages/game.py")
 st.sidebar.write("📍 No 6, Balqis Jumoke Street, Fate, Ilorin")
 st.sidebar.write("📱 09113579070")
 
