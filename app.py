@@ -14,7 +14,8 @@ WHATSAPP = "2349113579070"
 
 st.set_page_config(page_title=SHOP_NAME, page_icon="💄")
 
-
+st.markdown("✨ Luxury Perfumes | Original & Long Lasting | Delivery Nationwide ✨")
+st.markdown("Welcome to Delight Custmestic and Beauty Shop - Where Elegance Meets Fragrance.")
 def show_image(path, fallback_text, **kwargs):
     """Show an image if the file exists, otherwise show fallback text."""
     if os.path.exists(path):
